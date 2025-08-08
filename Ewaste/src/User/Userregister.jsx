@@ -9,7 +9,7 @@ import { gsap } from "gsap";
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 export default function Register() {
-  const API_BASE_URL = import.meta.env.VITE_API_URL;
+  const API_BASE_URL = import.meta.env.API_BASE_URL;
   const [record, setRecord] = useState({
     name: "",
     place: "",
