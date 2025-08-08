@@ -15,7 +15,7 @@ import AgentNavbar from './agentnav';
 
 
 export default function AgentRegister() {
-  const API_BASE_URL = import.meta.env.VITE_API_URL;
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const [agentData, setAgentData] = useState({
     agentname: '',
     adharid: '',

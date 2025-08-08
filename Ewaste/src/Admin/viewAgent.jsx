@@ -8,7 +8,7 @@ import './viewagent.css';
 import AdminNavbar from './adminNavbar';
 
 export default function ViewAgentsAdmin() {
-  const API_BASE_URL = import.meta.env.VITE_API_URL;
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const [agents, setAgents] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

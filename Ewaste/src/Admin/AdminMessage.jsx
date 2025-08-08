@@ -4,7 +4,7 @@ import { Trash2 } from 'lucide-react';
 import AdminNavbar from './adminNavbar';
 
 export default function AdminMessages() {
-  const API_BASE_URL = import.meta.env.VITE_API_URL;
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {

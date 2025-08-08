@@ -11,7 +11,7 @@ import './request.css';
 // import Footer from './Footer';
 
 export default function Request() {
-  const API_BASE_URL = import.meta.env.API_BASE_URL;
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const [formData, setFormData] = useState({
     ewasteType: '',
     quantity: 1,

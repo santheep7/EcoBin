@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from './usernavbar';
 
 export default function Login() {
-  const API_BASE_URL = import.meta.env.API_BASE_URL;
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const [record, setRecord] = useState({ email: "", password: "" });
   const [error, setError] = useState({});
   const [otp, setOtp] = useState("");

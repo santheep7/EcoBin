@@ -55,7 +55,7 @@ const features = [
 
 
 export default function UserHome() {
-  const API_BASE_URL = import.meta.env.API_BASE_URL;
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const [currentHeroSlide, setCurrentHeroSlide] = useState(0);
   const [showChat, setShowChat] = useState(false);
   const [latestFeedback, setLatestFeedback] = useState(null);

@@ -18,7 +18,7 @@ import AgentNavbar from './agentnav';
 import './profile.css'
 
 export default function AgentProfile() {
-  const API_BASE_URL = import.meta.env.VITE_API_URL;
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const [agent, setAgent] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
